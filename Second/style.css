@@ -1,0 +1,122 @@
+rrrdd*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Example  of using class selector */
+.promo{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #A3917D;
+    color: white;
+    padding: 10px 60px;
+    height: 6vh;
+}
+
+.promo__center{
+    flex-grow: 2;
+    /* to align text in center of the parent element */
+    text-align: center;
+    font-size: 18px;
+}
+
+/* example of cascade selection */
+.promo__center span{
+    text-decoration: underline;
+}
+
+.promo__right{
+display: flex;
+gap: 5px;
+align-items: center;    
+}
+
+
+
+.taskbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: rgb(242, 239, 239);
+    height: 8vh;
+}
+
+.taskbar__left{
+    display: flex;
+    gap: 100px;
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 25px;
+    list-style-type: none;
+   
+}
+
+.menu__item a{
+    /* text-decoration: none; */
+    color: rgb(25, 25, 25);
+    font-weight: bold;
+}
+
+.menu__item a:hover{
+    color: blue;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    cursor: pointer;
+}
+
+
+.main{
+    background-image: url("/Assets/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 86vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    
+}
+
+.main h2{
+    font-size: 100px;
+}
+.main p{
+    font-size: 50px;
+}
+
+.buttons{
+    margin-top: 36px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    color: white;
+    font-size: 26px;
+    border: 2px solid white;
+    padding: 20px 30px;
+}
+
+.button:hover{
+    color: #564430;
+    background-color: white;
+}
